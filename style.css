@@ -1,0 +1,98 @@
+/* Resetting Default Browser Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Style */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6f2ff; /* light blue */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 51, 102, 0.3);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  /* Input Fields and Select Box */
+  input[type="text"],
+  input[type="file"],
+  select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #003366;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  /* Hover and Focus Effects */
+  input[type="text"]:hover,
+  input[type="file"]:hover,
+  select:hover {
+    background-color: #e6f7ff;
+    border-color: #0055cc;
+  }
+  
+  input[type="text"]:focus,
+  input[type="file"]:focus,
+  select:focus {
+    outline: none;
+    background-color: #e6f7ff;
+    border-color: #3399ff;
+  }
+  
+  /* Button Style */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0055cc;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+  }
+  
+  /* Button Hover */
+  button:hover {
+    background-color: #003366;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .form {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
